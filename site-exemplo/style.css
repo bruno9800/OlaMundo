@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: rgb(52, 182, 182);
+    padding: 2rem;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: 50rem;
+    align-items: center;
+    margin-left: 15rem;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4rem;
+
+}
+
+p {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.button {
+    margin-top: 5rem;
+    display: grid;
+    background-color: blue;
+    border-radius: 15px;
+
+    
+}
+a {
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
